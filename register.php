@@ -29,7 +29,7 @@ if(isset($_POST["submit"])){
 }
 ?>
 
-<?php include "header.php"; ?>
+<?php include "inc/header.php"; ?>
 <!--  -->
 
 <div class="container">
@@ -74,4 +74,4 @@ if(isset($_POST["submit"])){
 </div>
 
 <!--  -->
-<?php include "footer.php"; ?>
+<?php include "inc/footer.php"; ?>

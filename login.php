@@ -12,11 +12,17 @@ if($_POST["submit"]){
     $check->execute([
 
     ]);
+    $data = $check->fetch(PDO::FETCH_ASSOC);
+    if ($check->rowCount() > 0) {
+        if(password_verify($password,'')){
+            
+        }
+    }
 }
 
 ?>
 
-<?php include "header.php"; ?>
+<?php include "inc/header.php"; ?>
 <!--  -->
 
 <div class="container">
@@ -44,4 +50,4 @@ if($_POST["submit"]){
 </div>
 
 <!--  -->
-<?php include "footer.php"; ?>
+<?php include "inc/footer.php"; ?>

@@ -3,11 +3,11 @@
 
 ?>
 
-<?php include "header.php"; ?>
+<?php include "inc/header.php"; ?>
 <div class="container">
     <h1>Hello world</h1>
 </div>
 
 
 <!--  -->
-<?php include "footer.php"; ?>
+<?php include "inc/footer.php"; ?>
