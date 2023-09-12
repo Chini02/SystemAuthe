@@ -1,13 +1,12 @@
-<?php
+
+<?php include "inc/header.php";
+ ?>
 
 
-?>
+<?php 
 
-<?php include "inc/header.php"; ?>
-<div class="container">
-    <h1>Hello world</h1>
-</div>
+echo "Hello " . $_SESSION["name"]; ?>
 
 
-<!--  -->
+
 <?php include "inc/footer.php"; ?>

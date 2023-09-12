@@ -3,7 +3,7 @@ require "config/config.php"; ?>
 
 <?php
 if(isset($_POST["submit"])){
-    $name = $_POST["fname"];
+    $name = $_POST["name"];
     $email = $_POST["email"];
     $password = $_POST["password"];
     $rpassword = $_POST["rpassword"];
@@ -39,7 +39,7 @@ if(isset($_POST["submit"])){
                 <div class="mb-3 row">
                     <label for="inputPassword" class="col-sm-2 col-form-label">UserName :</label>
                     <div class="col-sm-10">
-                        <input type="text" name="fname" class="form-control" id="inputPassword" placeholder="Full Name ...">
+                        <input type="text" name="name" class="form-control" id="inputPassword" placeholder="Full Name ...">
                         
                     </div>
                 </div>
